@@ -1,0 +1,12 @@
+services:
+  immich-kiosk:
+    image: damongolding/immich-kiosk:latest
+    container_name: immich-kiosk
+    environment:
+      KIOSK_DEBUG: false
+      TZ: "Asia/Ho_Chi_Minh"
+    ports:
+      - 3006:3000
+    volumes:
+      - ./config.yaml:/config.yaml
+    restart: always

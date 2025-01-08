@@ -7,9 +7,7 @@ Immich is a high performance self-hosted photo and video backup solution.
 
 ## Supported Architectures
 
-We use Docker manifest for cross-platform compatibility. More details can be found on [Docker's website](https://distribution.github.io/distribution/spec/manifest-v2-2/#manifest-list).
-
-This image supports the following architectures:
+The image is orginal, and supports the following architectures:
 
 | Architecture | Available | Tag |
 | :----: | :----: | ---- |
